@@ -12,55 +12,10 @@
 			"name": "free.us",
 			"ownedElements": [
 				{
-					"_type": "UMLPackage",
-					"_id": "AAAAAAFtYiHKPar7pPY=",
-					"_parent": {
-						"$ref": "AAAAAAFtYiHrHKr/T8k="
-					},
-					"name": "actors"
-				}
-			]
-		},
-		{
-			"_type": "UMLPackage",
-			"_id": "AAAAAAFtZL312RcVve8=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "freedom-gov.app",
-			"ownedElements": [
-				{
-					"_type": "UMLStateMachine",
-					"_id": "AAAAAAFtYiRPaqu9nK0=",
-					"_parent": {
-						"$ref": "AAAAAAFtZL312RcVve8="
-					},
-					"name": "roadmap.mvp",
-					"ownedElements": [
-						{
-							"_type": "UMLStatechartDiagram",
-							"_id": "AAAAAAFtYiRPa6u/+ic=",
-							"_parent": {
-								"$ref": "AAAAAAFtYiRPaqu9nK0="
-							},
-							"name": "igeek.cookbook.roadmap.mvp"
-						}
-					],
-					"regions": [
-						{
-							"_type": "UMLRegion",
-							"_id": "AAAAAAFtYiRPaqu+vtU=",
-							"_parent": {
-								"$ref": "AAAAAAFtYiRPaqu9nK0="
-							}
-						}
-					]
-				},
-				{
 					"_type": "UMLStateMachine",
 					"_id": "AAAAAAFtYiLliKtKIUc=",
 					"_parent": {
-						"$ref": "AAAAAAFtZL312RcVve8="
+						"$ref": "AAAAAAFtYiHrHKr/T8k="
 					},
 					"name": "roadmap",
 					"ownedElements": [
@@ -529,11 +484,46 @@
 							]
 						}
 					]
+				},
+				{
+					"_type": "UMLStateMachine",
+					"_id": "AAAAAAFtYiRPaqu9nK0=",
+					"_parent": {
+						"$ref": "AAAAAAFtYiHrHKr/T8k="
+					},
+					"name": "roadmap.mvp",
+					"ownedElements": [
+						{
+							"_type": "UMLStatechartDiagram",
+							"_id": "AAAAAAFtYiRPa6u/+ic=",
+							"_parent": {
+								"$ref": "AAAAAAFtYiRPaqu9nK0="
+							},
+							"name": "igeek.cookbook.roadmap.mvp"
+						}
+					],
+					"regions": [
+						{
+							"_type": "UMLRegion",
+							"_id": "AAAAAAFtYiRPaqu+vtU=",
+							"_parent": {
+								"$ref": "AAAAAAFtYiRPaqu9nK0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFtYiHKPar7pPY=",
+					"_parent": {
+						"$ref": "AAAAAAFtYiHrHKr/T8k="
+					},
+					"name": "actors"
 				}
 			]
 		}
 	],
-	"documentation": "# free.us\n\n## License\n\nCopyright 2019 (C) [Cale McCollough](https://calemccollough.github.io); all rights reserved (R).\n\nThis Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <https://mozilla.org/MPL/2.0/>.",
+	"documentation": "# free.us\n\n## License\n\nCopyright 2019 (C) [Cale McCollough](https://cale-mccollough.github.io); all rights reserved (R).\n\nThis Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <https://mozilla.org/MPL/2.0/>.",
 	"author": "Cale McCollough",
 	"company": "freedom-gov",
 	"copyright": "Copyright 2019 (C) freedom-gov; all rights reserved (R).",
